@@ -12,29 +12,31 @@ The project was built using R Studio version 0.99.451. It requires packages:
 - shiny
 - ggplot2
 - reshape2
+- dplyr
+- geojsonio
+- leaflet
+- RColorBrewer
+- scatterD3
+- htmltools
 
 ### Data
 
-Data from the [Programme for the International Assessment of Adult Competencies](http://www.oecd.org/skills/piaac/) was used. The data has been restructed as shown below:
+THIS VERSION OF THE VISUALISATION USES ONLY SYNTHETIC DATA!
 
-```
-{
-  "Esco_Level_1": "Clerical support workers",
-  "Esco_Level_2": "Customer services clerks",
-  "REGION0": "CZ",
-  "Esco_code": 1,
-  "Popn": 74168.99,
-  "formal": 8.413,
-  "non-formal": 62.376,
-  "on_job": 56.966
-}
-```
+The original project was visualising data provided by EUROSTAT for the hackathon:
+ -   Web scrapped data on job vacancies
+ -   EU-LFS and EU-SILC public use files
+ -   PIAAC ([Programme for the International Assessment of Adult Competencies](http://www.oecd.org/skills/piaac/))
+ -   EURES
+ -   ESCO
+
+The original datasets and derived summaries were replaced by synthetic data of same format for publishing purposes. 
 
 ## Useful links
 
 [EU Big Data Hackathon](http://ec.europa.eu/eurostat/cros/content/european-big-data-hackathon_en)
-[Programme for the International Assessment of Adult Competencies](http://www.oecd.org/skills/piaac/)
 
 ## Contributors
 
 [Karen Gask](https://github.com/gaskyk), working for the [Office for National Statistics Big Data project](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/theonsbigdataproject)
+[Iva Spakulova](https://github.com/ivyONS), working for the [Office for National Statistics Big Data project](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/theonsbigdataproject)
