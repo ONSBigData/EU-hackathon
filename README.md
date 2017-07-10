@@ -39,4 +39,5 @@ The original datasets and derived summaries were replaced by synthetic data of s
 ## Contributors
 
 [Karen Gask](https://github.com/gaskyk), working for the [Office for National Statistics Big Data project](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/theonsbigdataproject)
+
 [Iva Spakulova](https://github.com/ivyONS), working for the [Office for National Statistics Big Data project](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/theonsbigdataproject)
